@@ -1,23 +1,39 @@
 body {
-    background-color: #2C2641;
+
+    line-height: 1.5;
+    font-family: 'Karla', sans-serif;
+    display: block;
 }
+  h1,
+  h2,
+  h3
+    {
+    font-family: 'DM Serif Display', serif;
+  }
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     
 }
+a {
+    text-decoration: none;
+  }
 
-.header {
-    background-color:white;
-    padding: 16px 0;
-    position: fixed;
-    top:0;
-    right: 0;
-    left: 0;
+  /*Header*/
+ .header {
+          padding: 16px 0;
+          background-color: #ffffff;
+          position: fixed;
+          top: 0;
+          width: 100%;
+          box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);    
     
-    
-    
+}
+.logo {
+    font-size: 36px;
+    font-family: 'DM Serif Display', serif;
+    color: #2d2640;
 }
 
 .container {
@@ -25,21 +41,27 @@ body {
     margin: 0 auto;
     padding: 0 32px;
 }
-
-.flexContainer {
+ .flex  {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
+  }
+  .align-start {
+    align-items: flex-start;
+  } 
+  .col-1-2 {
+    flex: 0 1 45%;
+  }
+  
 .nav a{
     display: inline-block;
     margin:0px 0px 0px 32px;
-    text-decoration: none;
     text-transform: uppercase;
-    font-family:karla,sans-serif;
     font-size: 20px;
     font-weight: 700;
     color: #6e6b74;
+    font-family: 'Karla', sans-serif;
+      
 
 }
 
@@ -47,25 +69,157 @@ body {
     color: #2C2641;
 
 }
-.logo {
-    font-size: 36px;
-    font-weight: 700;
-    text-decoration: none;
-    color: #2C2641;
-}
+.nav .btn:hover {
+    color: #ffffff;
+  }
+
+/* btn section */
 
 .btn {
-    padding: 12px 18px;
+    padding: 13px 24px;
     color: #6e6b74;
     border: 1px solid #6e6b74;
     border-radius: 3px;
     display: inline-block;
     font-size: 20px;
     font-weight: 700;
-}
- 
-.nav .btn:hover{
+  }
+  .btn:hover {
     background-color: #2C2641;
-    color:white ;
+    color: #ffffff;
+  }
+  .btn-secondary {
+    border-color: #ffffff;
+    color: #ffffff;
+    text-transform: uppercase;
+  }
+  .btn-secondary:hover {
+    background-color: #ffffff;
+    color: #2C2641;
+  }
+  .firstbtn {
+    padding:13px 24px;
+    color:white;
+    border:1px solid white;
+    border-radius: 3px;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  .firstbtn:hover {
+    background-color: white;
+    color: #2C2641;
+  }
+
+
+/* Hero */
+.hero {
+    background-color: #2d2640;
+    padding: 60px 0  ;
+    color: #ffffff;
+    margin-top: 88px;
+}
+.line {
+    width: 200px;
+    height: 2px;
+    background-color: #bcb8c4;
+  
+}
+.hero-heading {
+    font-size: 56px;
+    margin-top: 16px;
+    line-height: 1.1;
+    font-family: 'DM Serif Display', serif;
+}
+
+.hero-text {
+
+    color: #bcb8c4;
+    margin: 32px 0;
+    font-size: 18px;
     
 }
+.txt {
+    padding: 30px 0;
+    color: #bcb8c4;
+    margin-top: 30px 0;
+    font-size: 18px;
+    line-height: 1.5;
+}
+.heading {
+    font-size: 48px;
+    color: #2d2640;
+
+}
+.hero-img {
+    margin-bottom: -160;
+    
+}
+.img-100 {
+    width: 100%;
+}
+
+/* About */
+.padding {
+    padding: 80px 0;
+}
+.about {
+    margin-top: 80px;
+  }
+  .about p {
+    font-size: 20px;
+    line-height: 1.6;
+    color: #6e6b74;
+    margin: 24px 0;
+    font-family:"karla",sans-serif;
+    
+  }
+
+  /* Feature */
+  .feature header {
+    margin-bottom: 40px;
+  }
+  .col-1-3 {
+    flex: 0 1 30%;
+  }
+  .icon-box {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: #8ab4f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+  }
+  .h3 {
+    font-size: 32px;
+    color: #2d2640;
+    text-transform: capitalize;
+    margin: 24px 0 8px 0;
+  }
+  .p3 {
+    color: #6e6b74;
+  }
+
+  /* CTA */
+  .cta .container {
+    background-color: #2d2640;
+    padding: 80px 60px;
+  }
+  .cta h3 {
+    color: #ffffff;
+
+  }
+  .cta h3 {
+    font-size: 44px;
+  }
+/* Footer */
+.footer {
+    margin-top: 60px;
+  }
+  .footer .container {
+    padding: 0;
+  }
+  
