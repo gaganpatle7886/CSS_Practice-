@@ -193,6 +193,7 @@ a {
     align-items: center;
     color: #ffffff;
   }
+  
   .h3 {
     font-size: 32px;
     color: #2d2640;
@@ -221,5 +222,36 @@ a {
   }
   .footer .container {
     padding: 0;
+  }
+   .border {
+    border-bottom: 1px solid #6e6b74;
+  }
+  .icon{
+    margin-left:20px;
+    font-size:30px;
+  }
+  .footer h2 {
+    font-size: 36px;
+  }
+  .footer a {
+    color: #6e6b74;
+    margin-left: 32px;
+    font-size: 24px;
+  }
+  .footer a:hover {
+    color: #08070b;
+  }
+  
+  .footer-nav {
+    text-align: center;
+    padding: 24px 0;
+  }
+  
+  .Copyright-info {
+    text-align: center;
+    background-color: #2d2640;
+    color: #cbc9c9;
+    font-size: 24px;
+    padding: 32px 0;
   }
   
