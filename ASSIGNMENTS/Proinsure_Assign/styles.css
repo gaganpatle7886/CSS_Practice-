@@ -120,6 +120,7 @@ a {
     padding: 60px 0 ;
     color: #ffffff;
     margin-top: 88px;
+    height: 535px;
 }
 .line {
     width: 200px;
@@ -231,6 +232,11 @@ a {
     margin-left:20px;
     font-size:30px;
   }
+  h2 {
+    font-size: 36px;
+    font-family: 'DM Serif Display', serif;
+    color: #2d2640;
+  }
   
   .footer a {
     color: #6e6b74;
@@ -240,7 +246,6 @@ a {
   .footer a:hover {
     color: #08070b;
   }
-  
   .footer-nav {
     text-align: center;
     padding: 24px 0;
