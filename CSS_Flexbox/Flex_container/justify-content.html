@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.flex-container {
+  display: flex;
+  justify-content: center;
+  background-color: DodgerBlue;
+}
+.flex-container1 {
+  display: flex;
+  justify-content: flex-start;
+  background-color: gold;
+}
+.flex-container2 {
+  display: flex;
+  justify-content: flex-end;
+  background-color: red;
+}
+.flex-container3 {
+  display: flex;
+  justify-content: space-around;
+  background-color: green;
+}
+.flex-container4 {
+  display: flex;
+  justify-content: space-between;
+  background-color: yellow;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+</style>
+</head>
+<body>
+
+<h1>The justify-content Property</h1>
+
+<p>The "justify-content: center;" aligns the flex items at the center of the container:</p>
+
+<div class="flex-container">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>  
+</div>
+<hr>
+<h1>The justify-content flex-start</h1>
+<section>
+    <div class="flex-container1 flex-container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>  
+      </div>
+</section>
+<hr>
+<h1>The justify-content flex-end</h1>
+<section>
+    <div class="flex-container2 flex-container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>  
+      </div>
+</section>
+<hr>
+<h1>The justify-content space-around</h1>
+<section>
+    <div class="flex-container3 flex-container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>  
+      </div>
+</section>
+<hr>
+<h1>The justify-content space-between</h1>
+<section>
+    <div class="flex-container4 flex-container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>  
+      </div>
+</section>
+
+</body>
+</html>
+
