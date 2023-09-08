@@ -70,7 +70,7 @@ h6 {
 nav a:hover {
     background: linear-gradient(to top, rgba(246, 46, 113, 1), rgba(249, 171, 114, 1));
     -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
+    
 }
 
 /*section 1*/
