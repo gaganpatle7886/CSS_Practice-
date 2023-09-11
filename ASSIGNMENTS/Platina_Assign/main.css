@@ -152,7 +152,6 @@ nav a:hover {
     align-items: center;
 
 }
-
 /*section*/
 .area {
     background-color: #222;
@@ -211,5 +210,19 @@ nav a:hover {
     margin-bottom: 20px;
 }
 h4 {
+    margin-top: 40px;
+    margin-bottom: 20px;
     font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    color: #222222;
+    line-height: 1.2em;
+    font-weight: 600;
+}
+.lnr {
+    font-size: 35px;
+}
+.lnr:hover {
+    background: linear-gradient(to top, rgba(246, 46, 113, 1), rgba(249, 171, 114, 1));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
