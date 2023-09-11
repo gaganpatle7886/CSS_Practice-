@@ -42,7 +42,6 @@ h6 {
 .flex  {
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
 .container {
@@ -217,12 +216,54 @@ h4 {
     color: #222222;
     line-height: 1.2em;
     font-weight: 600;
+    padding-left: 50px;
+    
+    
 }
-.lnr {
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+  
+ .inr {
     font-size: 35px;
-}
+    padding-left: 50px;
+    
+ }   
+
+
 .lnr:hover {
     background: linear-gradient(to top, rgba(246, 46, 113, 1), rgba(249, 171, 114, 1));
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
+}
+
+.sigle-facilities .lnr {
+    font-size: 35px;
+    color: #777777;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+  }
+  
+ .col-md-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+.col-lg-4 {
+  flex: 0 0 33.33333%;
+  max-width: 33.33333%;
+}
+.second_gallery {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.img5{
+    width: 600;
+    height: 400;
 }
