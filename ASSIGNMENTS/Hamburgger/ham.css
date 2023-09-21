@@ -154,6 +154,18 @@ P {
     
     box-shadow: 1px 1px 4px 1px#302f2f;
   }
+
+.box2{
+    background-color: white;
+    width: 1000px;
+    height: 250px;
+    border-radius: 20px;
+    border: 1px solid white;
+    box-shadow:  black;
+
+    box-shadow: 1px 1px 4px 1px#302f2f;
+  }
+
   h3{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 22px;
@@ -173,3 +185,34 @@ P {
     width: 250px;
     height: 300px;
   }
+
+  .social{
+    font-size: 60px;
+    font-family: 'Berkshire Swash', 'cursive';
+    margin-top: 80px;
+  }
+.para6{
+    font-family:"karla",sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: -40px;
+}
+
+.area{
+    
+    padding-top: 100px;
+    background-color: #222222;
+}
+.last {
+    font-family: 'Berkshire Swash', 'cursive';
+    font-size: 34px;
+    color: #757373;
+    text-align: center;
+    margin-top: -90px;
+}
+.para6{
+    font-family:"karla",sans-serif;
+    color: #757373;
+    text-align: center;
+    margin-top: 15px;
+}
