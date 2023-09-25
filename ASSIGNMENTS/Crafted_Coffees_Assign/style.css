@@ -1,0 +1,315 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+a {
+    text-decoration: none;
+  }
+
+/* header section */
+  .header {
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
+      url("Cafe3.jpeg") center/cover no-repeat;
+    position: relative;
+    background-attachment: fixed;
+  }
+  
+  .logo {
+    
+  float:left;
+  z-index: 3;
+  position: fixed;
+  
+}
+
+  
+nav {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5));
+    position: fixed;
+    float: left;
+    width: 100%;
+    padding-right: 4%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+
+}
+.main{
+    position: absolute;
+  }
+  
+  .nav a {
+    float: right;
+    background: none;
+    padding-right:2%;
+    letter-spacing: 3px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #f8f9fa;
+    display: inline;
+    text-decoration: none;
+    transition: 0.5s;
+    font-weight: 500;
+    font-size:17px;
+    padding: 15px;
+  }
+  .li {
+    float:right;
+  }
+
+  nav a:hover {
+    color: red;
+}
+
+ .flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+
+/*section banner */
+.banner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    letter-spacing: 0.5rem;
+  }
+  
+  .banner-title {
+    font-family:SpartanLimport;
+    font-size: 3.5rem;
+    color: white;
+    margin-top: 2.5rem;
+    line-height: 1.3;
+    /* animation */
+    animation-name: slidedown;
+    -webkit-animation-name: slidedown;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+  }
+  .banner-subtitle {
+    margin-top: 2rem;
+    font-size: 2rem;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    color: #f8f9fa;
+    /* animation */
+    animation-name: slideup;
+    -webkit-animation-name: slideup;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+  }
+
+  .banner-bottom {
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation-name: downarrow;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    margin-top: 150px;
+  }
+  
+  
+  
+  .banner-bottom img{
+    height:40px;
+    
+  }
+
+  @keyframes downarrow {
+    0% {
+      top:91%;
+    }
+  
+    50% {
+      top:96%;
+    }
+    
+    100% {
+      top:91%;
+    }
+  }
+  
+  .banner-bottom :hover img{
+    display: inline-block;
+    transform:scale(0,22px);
+    transition: 5s ease;
+  }
+  .content-divider {
+    height: 0.5rem;
+    background: linear-gradient(
+      to left,
+      #a07070,
+      #bc8b8b,
+      #8e4242,
+      #a28f8f,
+      #513434
+    );
+  }
+  
+ /*skills section*/
+
+ .skills {
+    background: #E0E5EC;
+    width:100%;
+    height: 17rem;
+
+  }
+  .skill1 {
+    padding: 2.5rem 0;
+    text-align: center;
+    transition: 0.5s;
+    font-size: 15px;
+    width:25%;
+  }
+  
+  .skill2 {
+    padding: 2.5rem 0;
+    text-align: center;
+    transition: 0.5s;
+    width:25%;
+  }
+  
+  .head1 {
+      text-align: center;
+      font-size: 0.9rem;
+      font-weight: bold;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 1em;
+      margin-bottom: 1.5rem;
+      color: #bd1220;
+      transition: 0.5s;
+  }
+ 
+ .para1 {
+        text-align: center;
+        max-width: 13rem;
+        margin: 0 auto;
+        text-shadow: 10px;
+        font-family: RalewayELimport;
+ }
+ .skill1:hover {
+    background:#52080e;
+    padding: 100px;
+    opacity: 1.2;
+    border-bottom-left-radius: 40px;
+    border-top-right-radius: 40px;
+  }
+  .skill2:hover {
+    background: #52080e;
+    opacity: 1.2;
+    border-bottom-left-radius: 40px;
+    border-top-right-radius: 40px;
+  }
+  
+  
+  .skill1:hover .head1 {
+    color:#8e4242 ;
+    font-size: 17px;
+  }
+  
+  .skill1:hover .para1 {
+    color: white;
+  }
+  
+  .skill2:hover .head1 {
+    color:#8e4242 ;
+    font-size: 17px;
+  }
+  
+  .skill2:hover .para1 {
+    color: white;
+  }
+
+  /* about section */
+  #myvideo {
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+  }
+  
+  .about{
+    background-color: #E0E5EC;
+
+  }
+  .about1 {
+    float: left;
+    width: 50%;
+    padding: 5rem;
+    background-color: #E0E5EC;
+    padding: 1rem;
+  }
+ 
+
+  .head2{
+    color: #bd1220;
+    text-transform: uppercase;
+    
+  }
+ .main-btn {
+        color:black;
+        display: inline-block;
+        background:none;
+        text-transform: uppercase;
+        padding: 0.8rem 1.2rem;
+        font-weight: bold;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        outline: 0.15rem solid #bd1220;
+        /*outline-offset: 4px;*/
+        cursor: pointer;
+        margin-top: 3rem;
+        transition: 0.5s;
+        position: absolute;
+        z-index: 1;
+      }
+      
+.main-btn:hover {
+    background-color:#bd1220;
+    color: white;
+}
+
+/*menu section */
+.menu{
+    background-color: #E0E5EC ;
+    z-index: 1;
+    height: 80vh;
+    width: 100%;
+}
+.menu-template{
+    height: 40vh;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
+      url("./Cafe1.jpg") center/cover no-repeat;
+    position: relative;
+    background-attachment: fixed;
+  }
+  .head3 {
+        font-family: SpartanLimport;
+        color:#bd1220;
+      
+        line-height: 1.3;
+        text-align: center;
+        padding-top: 6.5%;
+        font-size: 30px;
+      
+  }
+  .head4 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-family: SpartanLimport;
+  }
